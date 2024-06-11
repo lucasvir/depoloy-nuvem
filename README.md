@@ -26,6 +26,11 @@ classDiagram
         -String description
     }
     
+    class Card {
+        -String number
+        -Number limit
+    }
+    
     class News {
         -String icon
         -String description
