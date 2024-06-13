@@ -9,3 +9,7 @@ spring:
     hibernate:
       ddl-auto: validate
       database-platform: org.hibernate.dialect.PostgreSQLDialect
+springdoc:
+  swagger-ui:
+    path: /api/docs
+    disable-swagger-default-url: true
